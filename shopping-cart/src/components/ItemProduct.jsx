@@ -13,7 +13,7 @@ const ItemProduct = (props) => {
                 <li>Storage - {props.item.storage}</li>
                 <li>Display - {props.item.display}</li>
                 <li>Brand - {props.item.brand}</li>
-                <li>Price - {props.item.price} tk</li>
+                <li style={{ color: "blue" }}>Price - {props.item.price} tk</li>
             </ul>
             <div className='butn'>
                 <button onClick={() => props.addToCart(props.item)}>Add to cart</button>

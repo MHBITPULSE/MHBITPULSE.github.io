@@ -1,8 +1,12 @@
 import React from 'react'
+import './cart.scss'
 
-const Cart = () => {
+const Cart = ({ index, item, removeFromCart }) => {
     return (
-        <div>Cart</div>
+        <div className='cartItem'>
+            <span>{index + 1}. {item.name} {item.price} tk</span>
+            <button onClick={() => removeFromCart(index)}>X</button>
+        </div>
     )
 }
 
