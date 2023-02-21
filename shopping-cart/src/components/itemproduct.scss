@@ -1,0 +1,53 @@
+.itemproduct {
+    background: rgba(116, 115, 115, 0.26);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    margin-left: 15px;
+
+    gap: 10px;
+
+    h4 {
+
+        &:hover {
+            color: green;
+        }
+    }
+
+    img {
+        width: 230px;
+        height: 180px;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            text-align: left;
+
+            &:hover {
+                background-color: white;
+            }
+        }
+    }
+
+    .butn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        gap: 10px;
+
+        button {
+            color: wheat;
+            background-color: teal;
+            padding: 5px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: rgba(0, 128, 128, 0.774);
+            }
+        }
+    }
+}
